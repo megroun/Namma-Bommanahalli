@@ -1,0 +1,17 @@
+.mainBanner{
+    position: relative;
+    /* border: solid 1px blue; */
+    top: 59px;
+    height: 470px;
+    overflow-y: hidden;
+}
+/* .test{
+    top: 58px;
+    height: 200px;
+} */
+.banner{
+    overflow-y: hidden;
+    width: 1349px;
+    height: 460px;
+}
+

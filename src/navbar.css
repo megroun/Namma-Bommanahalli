@@ -1,0 +1,48 @@
+#navBar{
+  position: fixed;
+  z-index: 9999;
+  top: -1px;
+}
+#logoName{
+  color: #61dafb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  outline: none;
+}
+.search{
+  position: relative;
+  left: 310px;
+  /* border: solid 1px red; */
+  width: 553px;
+  height: 30px;
+  top: 1px;
+}
+.searchBar{
+  width: 550px;
+  height: 26px;
+  position: relative;
+  right: 0px;
+  border-radius: 5px;
+  border: none;
+  text-indent: 15px;
+  top: 0px;
+  font-size: 12px;
+  outline: none;
+}
+#searchButton{
+  left: 510px;
+  position: relative;
+  height: 26px;
+  bottom: 27px;
+  outline: none !important;
+  /* background: #ffc107;
+  border: none;
+  border-radius: 5px; */
+}
+.btn:focus{
+  box-shadow: none;
+  outline: none;
+}
+.btn:hover{
+  outline: none !important;
+}

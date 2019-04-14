@@ -1,0 +1,72 @@
+#logoNamefooter{
+    color: #61dafb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    outline: none;
+}
+#byName{
+     /* border: solid; */
+    font-size: 14px;
+    color: #ffffff;
+}
+#footer{
+    height: auto;
+    /* height: 200px; */
+    position: relative;
+    /* bottom: 10px; */
+}
+.info{
+    position: relative;
+    /* border: solid 1px red; */
+    text-decoration: none;
+    list-style-type: none;
+    color: #61dafb;
+    left: 400px;
+    width: 800px;
+    /* height: auto; */
+    height: 150px;
+    /* display: inline-flex; */
+    /* text-align: center; */
+    text-indent: 77px;
+    width: 280px;
+    /* font-family: verdana; */
+}
+.title{
+    border-bottom: 1px solid slategrey;
+}
+.title1{
+    border-bottom: 1px solid slategrey;
+}
+.title2{
+    border-bottom: 1px solid slategrey;
+}
+.links{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
+    /* text-indent: 10px; */
+    /* border: solid; */
+}
+.info1{
+    color: #61dafb;
+    position: relative;
+    /* right: 500px;
+    bottom: 25px; */
+    left: 172px;
+    bottom: 10px;
+    /* border: solid; */
+    width: 200px;
+    height: 130px;
+    text-indent: 33px;
+}
+.info2{
+    color: #61dafb;
+    position: relative;
+    position: relative;
+    height: 110px;
+    width: 300px;
+    text-align: center;
+    bottom: 20px;
+    right: 60px;
+}
