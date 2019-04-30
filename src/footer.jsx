@@ -8,17 +8,16 @@ import MdChatboxes from 'react-ionicons/lib/MdChatboxes';
 
 class Footer extends Component {
     styles = {
-        color: 'white',
+        color: 'white'
         // background: 'white'
     }
     render() {
         return (
             <div>
                 <nav className="navbar navbar-dark bg-dark col-12" id="footer">
-                    <a className="navbar-brand Fa500px" id="logoNamefooter">Namma Bommanahalli<br />
-                        <a id="byName">Developed by Rahul Abhishek</a>
+                    <a className="navbar-brand Fa500px" href="#" id="logoNamefooter">Namma Bommanahalli</a><br/>
+                        <a id="byName" href="#">Developed by Rahul Abhishek</a>
                         <span className="badge badge-pill badge-secondary"></span>
-                    </a>
                     <div className="info">
                         <div className="title">Additional Info</div>
                         <div className="links"><MdMail style={this.styles} beat={true} color="red" />Email Us</div>

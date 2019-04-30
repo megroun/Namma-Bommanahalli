@@ -1,15 +1,20 @@
-#navBar{
+#navBar {
   position: fixed;
   z-index: 9999;
   top: -1px;
+  /* background: white; */
+  height: 70px;
 }
-#logoName{
+/* .logo{
+
+} */
+#logoName {
   color: #61dafb;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   position: absolute;
   outline: none;
 }
-.search{
+.search {
   position: relative;
   left: 310px;
   /* border: solid 1px red; */
@@ -17,7 +22,7 @@
   height: 30px;
   top: 1px;
 }
-.searchBar{
+.searchBar {
   width: 550px;
   height: 26px;
   position: relative;
@@ -29,20 +34,20 @@
   font-size: 12px;
   outline: none;
 }
-#searchButton{
+#searchButton {
   left: 510px;
   position: relative;
   height: 26px;
-  bottom: 27px;
+  bottom: 28px;
   outline: none !important;
   /* background: #ffc107;
   border: none;
   border-radius: 5px; */
 }
-.btn:focus{
+.btn:focus {
   box-shadow: none;
   outline: none;
 }
-.btn:hover{
+.btn:hover {
   outline: none !important;
 }

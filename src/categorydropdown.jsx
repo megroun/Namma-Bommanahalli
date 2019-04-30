@@ -26,45 +26,11 @@ class CategoryDropDown extends Component {
                 <button className="dropbtnCategory hidden-xs-up">
                     <i className="arrow downCategory hidden-xs-up"></i>Browse by category
                 </button>
-                {/* <div id="myDropdownCategory" className="dropdown-contentCategory">
-                    {
-                        this.state.Categories.map((usercategories) => {
-                            return (
-                                <a location={usercategories.category} key={usercategories.id}>{usercategories.category}</a>
-                            )
-                        })
-                    }
-                  
-                </div> */}
                 <MenuItem myData={this.state.Categories}></MenuItem>
             </div>
         );
-    }
-    dropCategory(event) {
-        // document.getElementById("myDropdownCategory").classList.toggle("showCategory");
-        console.log('reached ', event.target.matches('.dropbtnCategory'));
-        if (event.target.matches('.dropbtnCategory')) {
-            var dropdownsCategory = document.getElementsByClassName("dropdown-contentCategory");
-            //   var a;
-            for (let a = 0; a < dropdownsCategory.length; a++) {
-                var openDropdown = dropdownsCategory[a];
-                if (openDropdown.classList.contains('showCategory')) {
-                    openDropdown.classList.remove('showCategory');
-                }
-                else {
-                    openDropdown.classList.add('showCategory');
-                }
-            }
-        }
     }
 
 }
 
 export default CategoryDropDown;
-
-
-// export PageContent =[
-//     pageTitle:'xya',
-//     imgSrc:'',
-//     data:[{},{}]
-// ];

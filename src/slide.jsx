@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Card } from 'react-bootstrap';
-import { BrowserRouter as Link } from 'react-router-dom';
+// import { BrowserRouter as Link } from 'react-router-dom';
 import IosArrowRoundForward from 'react-ionicons/lib/IosArrowRoundForward';
+import { BrowserRouter, Route, NavLink, Switch, Link } from 'react-router-dom';
+import Test from './test.jsx';
 
 class Slide extends Component {
     //    state={};
@@ -19,7 +21,11 @@ class Slide extends Component {
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
                             </Card.Text>
-                                <Button variant="primary">More Details</Button><Link to="./parkBanner.jpg" />
+                                <Link to="/test">
+                                    <Button variant="primary">More Details
+                                    </Button>
+                                    {/* <Link to="./parkBanner.jpg" /> */}
+                                </Link>
                             </Card.Body>
                         </Card>
                     </div>

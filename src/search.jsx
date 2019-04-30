@@ -12,6 +12,17 @@ class Search extends Component {
         position: "relative",
         bottom: "5px"
     };
+    constructor(props) {
+        super(props)
+        this.handleClicker = this.handleClicker.bind(this)
+    }
+
+    handleClicker() {
+        this.setState(e => {
+            console.log('Data Clicked');
+        });
+    }
+
     // buttonStyles={
 
     // }
@@ -19,7 +30,7 @@ class Search extends Component {
         return (
             <div className="search">
                 <input type="text" className="searchBar" placeholder="Search hospitals, properties and more..."></input>
-                <button className="btn btn-warning btn-sm" id="searchButton"><IosSearch beat={true} style={this.styles} /></button>
+                <button className="btn btn-warning btn-sm" id="searchButton" onClick={this.handleClicker}><IosSearch beat={true} style={this.styles} /></button>
             </div>
         );
     }

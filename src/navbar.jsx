@@ -4,14 +4,14 @@ import React, { Component } from 'react';
 // import { Fa500px } from "react-icons/fa";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { Icon } from 'rmdi';
-import Search from './search';
+// import Search from './search';
 import LocationDropDown from './locationdropdown';
 import CategoryDropDown from './categorydropdown';
 // import Content from './content';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 // import {BeakerIcon, ArrowSmallDownIcon, octicon-search} from 'react-octicons';
-import IosSearch from 'react-ionicons/lib/IosSearch';
+// import IosSearch from 'react-ionicons/lib/IosSearch';
 
 class Navbar extends Component {
 
@@ -24,9 +24,13 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-dark bg-dark col-12" id="navBar">
-          <a className="navbar-brand Fa500px" id="logoName" href="\">Namma Bommanahalli<span className="badge badge-pill badge-secondary"></span></a>
+          {/* navbar-dark bg-dark */}
+          <a className="navbar-brand Fa500px" href="#" id="logoName" href="#">Namma Bommanahalli
+          {/* <img className="logo" src={require("./images/logoNB.png")} alt="logo"/> */}
+            <span className="badge badge-pill badge-secondary"></span>
+          </a>
           {/* {this.props.totalCounters} */}
-          <Search></Search>
+          {/* <Search></Search> */}
           <LocationDropDown></LocationDropDown>
           <CategoryDropDown></CategoryDropDown>
         </nav>
